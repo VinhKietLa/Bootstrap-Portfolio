@@ -13,7 +13,7 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-lg-center">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-lg-center">
         <a class="navbar-brand" href="#">VKL</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,20 +21,20 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto navbarCustom">
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://github.com/VinhKietLa">GITHUB</a>
+                    <a class="nav-link-color" href="https://github.com/VinhKietLa">GITHUB</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="https://www.linkedin.com/in/vinhkietla/">LINKEDIN</a>
+                    <a class="nav-link-color" href="https://www.linkedin.com/in/vinhkietla/">LINKEDIN</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link"
-                        ref="https://drive.google.com/file/d/1YpcsbtHs68Fg6feIsVKfOb9XeVjdXN3S/view?usp=sharing"
+                    <a class="nav-link-color"
+                        href="https://drive.google.com/file/d/1YpcsbtHs68Fg6feIsVKfOb9XeVjdXN3S/view?usp=sharing"
                         target="_blank">RESUME</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#my-projects">PROJECTS</a>
+                    <a class="nav-link-color" href="#my-projects">PROJECTS</a>
                 </li>
 
             </ul>
@@ -48,7 +48,7 @@
             <h1 class="display-4">I am Vinh</h1>
             <p class="lead">An aspiring web developer 💪</p>
             <a href="mailto:kietla@live.co.uk">
-                <button type="button" class="btn btn-primary">Contact me</button>
+                <button type="button" class="btn" id="contact-btn">Contact me</button>
             </a>
             <img class="pictureofme img-fluid" src="./images/pictureofme.png" alt="A picture of Vinh">
         </div>
@@ -105,7 +105,7 @@
 
 
     <div class="container">
-        <div class="personal-projects">
+        <div class="personal-projects row">
             <h2 id="my-projects" class="projects-header"> <a id="my-projects">My projects</a></h2>
             <div class="contact-form">
                 <h4 class="overlay">Contact Form</h4>

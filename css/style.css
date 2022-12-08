@@ -12,28 +12,6 @@
     display: block;
 }
 
-/*custom color styling*/
-
-#herocustom {
-    background-color: #ffe66d;
-
-}
-
-.navbar {
-    background-color: #343434!important;
-    color:white!important;
-}
-
-body {
-background-color: #f7fff7!important;
-/* color: #f7fff7!important; */
-}
-
-h1, h2 {
-    color: #343434;
-}
-
-
 /* About me section*/
 
 
@@ -89,4 +67,40 @@ h1, h2 {
 
 .card-footer {
     text-align: center;
+}
+
+/*custom color styling*/
+
+.navbarCustom {
+    align-items: center;
+}
+
+.nav-item a:hover {
+    color: #ffe66d;
+    text-decoration: none;
+}
+
+.nav-link-color {
+    color:#f7fff7;
+}
+
+
+#herocustom {
+    background-color: #ffe66d;
+}
+
+#contact-btn {
+    background-color: #343434;
+    border-color: #343434;
+    color: #f7fff7;
+}
+
+
+body {
+background-color: #f7fff7!important;
+/* color: #f7fff7!important; */
+}
+
+h1, h2 {
+    color: #343434;
 }
