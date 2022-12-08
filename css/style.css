@@ -12,11 +12,35 @@
     display: block;
 }
 
+/*custom color styling*/
+
+#herocustom {
+    background-color: #ffe66d;
+
+}
+
+.navbar {
+    background-color: #343434!important;
+    color:white!important;
+}
+
+body {
+background-color: #f7fff7!important;
+/* color: #f7fff7!important; */
+}
+
+h1, h2 {
+    color: #343434;
+}
+
+
 /* About me section*/
 
 
 .about-me {
     text-align: center;
+    border-bottom: 1px solid #343434;
+    margin-bottom: 2rem;
 }
 
 /* Myskillset section*/
@@ -24,13 +48,14 @@
 
 .myskillset-icon {
     width: 25vw;
-    height: 10vh;
 }
 
 .my-skillsets {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    border-bottom: 1px solid #343434;
+    margin-bottom: 2rem;
 }
 
 .my-skillsets ul {
@@ -49,15 +74,17 @@
 /* My Personal projects section*/
 
 .projects-icon {
-    width: 25vw;
-    height: 10vh;
+    /* width: 50vw; */
+    /* height: 12vh; */
 }
 
 .personal-projects {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #343434;
+    /* margin-bottom: 1rem; */
 }
 
 .card-footer {
