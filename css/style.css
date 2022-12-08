@@ -45,3 +45,17 @@
     padding-left: 0;
     text-align: center;
 }
+
+/* My Personal projects section*/
+
+.projects-icon {
+    width: 25vw;
+    height: 10vh;
+}
+
+.personal-projects {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
