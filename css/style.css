@@ -1,0 +1,39 @@
+/* Hero/jumobtron section*/
+
+.jumbotron {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+.pictureofme {
+    margin-top: 1.5em;
+    display: block;    
+}
+
+/* About me section*/
+
+
+.about-me {
+    text-align: center;
+}
+
+/* Myskillset section*/
+
+
+.myskillset-icon {
+    width: 25vw;    
+    height: 10vh;
+    align-self:flex-start;
+}
+
+.my-skillsets {
+    flex-direction: column;
+
+}
+
+.my-skillsets ul {
+    list-style: none;
+}
+
