@@ -69,8 +69,13 @@
     text-align: center;
 }
 
-/*custom color styling*/
+/*  CUSTOM CSS STYLING */
 
+body {
+    background-color: #343434!important;
+}
+
+    /*navbar*/
 .navbarCustom {
     align-items: center;
 }
@@ -84,6 +89,14 @@
     color:#f7fff7;
 }
 
+    /*about me*/
+
+.about-me {
+    background-color: #343434;
+    color: #f7fff7;
+}
+
+    /*hero*/
 
 #herocustom {
     background-color: #ffe66d;
@@ -95,12 +108,27 @@
     color: #f7fff7;
 }
 
+    /*My Skillsets*/
 
-body {
-background-color: #f7fff7!important;
-/* color: #f7fff7!important; */
+.my-skillsets {
+    background-color: #ffe66d;
+    padding-top: 1.5rem;
 }
 
-h1, h2 {
-    color: #343434;
+.skillset-header {
+    color:#343434;
+}
+
+.personal-projects h2, h4 {
+    color: #f7fff7;
+}
+
+.contact-form, .blackjack-game, .weight-converter, .rdx-landing-page {
+    border: 1px solid #f7fff7;
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
+}
+
+#footer-bg {
+    background-color: #ffe66d;
 }
