@@ -110,17 +110,19 @@ body {
 
     /*My Skillsets*/
 
-.my-skillsets {
+.skillset-container {
     background-color: #ffe66d;
     padding-top: 1.5rem;
 }
 
 .skillset-header {
     color:#343434;
+    text-align: center;
 }
 
-.personal-projects h2, h4 {
+.personal-projects , h4 , .projects-header {
     color: #f7fff7;
+    text-align: center;
 }
 
 .contact-form, .blackjack-game, .weight-converter, .rdx-landing-page {
@@ -138,3 +140,7 @@ body {
 .navbarCustom li {
     padding: 0 1rem 0 0;
 }
+
+/*My skill-set styles*/
+
+
