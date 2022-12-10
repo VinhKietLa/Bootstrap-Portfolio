@@ -69,7 +69,7 @@
     text-align: center;
 }
 
-/*  CUSTOM CSS STYLING */
+/*  CUSTOM CSS STYLING  325px - 991px*/
 
 body {
     background-color: #343434!important;
@@ -131,4 +131,10 @@ body {
 
 #footer-bg {
     background-color: #ffe66d;
+}
+
+/*  CUSTOM CSS STYLING  325px - 992px (large devices)*/
+
+.navbarCustom li {
+    padding: 0 1rem 0 0;
 }
