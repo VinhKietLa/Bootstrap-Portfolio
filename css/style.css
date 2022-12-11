@@ -118,7 +118,6 @@ body {
     text-align: center;
     padding-bottom: 1rem;
     border-bottom: 1px solid #343434;
-    /* margin-bottom: 1rem; */
 }
 
 .contact-form {
@@ -173,6 +172,3 @@ body {
 .personal-projects {
     flex-direction: row;
 }
-
-/*  CUSTOM CSS STYLING 1200px+ (Extra large devices)*/
-
