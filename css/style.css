@@ -10,6 +10,20 @@ body {
     font-family: RobotoMono, Arial, Helvetica, sans-serif !important;
 }
 
+/* Navbar */
+
+.navbarCustom {
+    align-items: center;
+}
+
+#vkl:hover, .nav-item a:hover, #contact-btn:hover {
+    color: #ffe66d;
+    text-decoration: none;
+}
+
+.nav-link-color {
+    color:#f7fff7;
+}
 
 /* Hero/jumobtron section*/
 
@@ -25,8 +39,27 @@ body {
     display: block;
 }
 
+#herocustom {
+    background-color: #ffe66d;
+}
+
+#contact-btn {
+    background-color: #343434;
+    border-color: #343434;
+    color: #f7fff7;
+}
+
+#contact-btn:hover {
+    box-shadow: 0 3px 10px #343434;
+}
+
+
 /* About me section*/
 
+.about-me {
+    background-color: #343434;
+    color: #f7fff7;
+}
 
 .about-me {
     text-align: center;
@@ -61,6 +94,17 @@ body {
     padding-left: 0;
     text-align: center;
 }
+
+.skillset-container {
+    background-color: #ffe66d;
+    padding-top: 1.5rem;
+}
+
+.skillset-header {
+    color:#343434;
+    text-align: center;
+}
+
 
 /* My Personal projects section*/
 
@@ -101,70 +145,19 @@ body {
     box-shadow: 0 3px 15px #ffe66d;
 }
 
+/* Footer section*/
+
+
 .card-footer {
     text-align: center;
 }
-
-/*  CUSTOM CSS STYLING  325px - 991px*/
-
-    /*navbar*/
-.navbarCustom {
-    align-items: center;
-}
-
-#vkl:hover, .nav-item a:hover, #contact-btn:hover {
-    color: #ffe66d;
-    text-decoration: none;
-}
-
-.nav-link-color {
-    color:#f7fff7;
-}
-
-    /*about me*/
-
-.about-me {
-    background-color: #343434;
-    color: #f7fff7;
-}
-
-    /*hero*/
-
-#herocustom {
-    background-color: #ffe66d;
-}
-
-#contact-btn {
-    background-color: #343434;
-    border-color: #343434;
-    color: #f7fff7;
-}
-
-#contact-btn:hover {
-    box-shadow: 0 3px 10px #343434;
-}
-
-/*My Skillsets*/
-
-.skillset-container {
-    background-color: #ffe66d;
-    padding-top: 1.5rem;
-}
-
-.skillset-header {
-    color:#343434;
-    text-align: center;
-}
-
-
-/*Footer*/
-
 
 #footer-bg {
     background-color: #ffe66d;
 }
 
-/*  CUSTOM CSS STYLING  325px - 992px (large devices)*/
+
+/*  CUSTOM CSS STYLING 992px -1199px (large devices)*/
 
 .navbarCustom li {
     padding: 0 1rem 0 0;
@@ -185,4 +178,6 @@ body {
 .personal-projects {
     flex-direction: row;
 }
+
+/*  CUSTOM CSS STYLING 1200px+ (Extra large devices)*/
 
