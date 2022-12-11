@@ -1,3 +1,16 @@
+/*Custom font */
+
+@font-face {
+    font-family: RobotoMono;
+    src: url('https://dl.dropboxusercontent.com/s/zft6ylq900azrmx/RobotoMono-VariableFont_wght.woff2?dl=0') format('woff2');
+  }
+
+body {
+    background-color: #343434!important;
+    font-family: RobotoMono, Arial, Helvetica, sans-serif !important;
+}
+
+
 /* Hero/jumobtron section*/
 
 .jumbotron {
@@ -71,16 +84,12 @@
 
 /*  CUSTOM CSS STYLING  325px - 991px*/
 
-body {
-    background-color: #343434!important;
-}
-
     /*navbar*/
 .navbarCustom {
     align-items: center;
 }
 
-.nav-item a:hover {
+#vkl:hover, .nav-item a:hover, #contact-btn:hover {
     color: #ffe66d;
     text-decoration: none;
 }
@@ -106,6 +115,10 @@ body {
     background-color: #343434;
     border-color: #343434;
     color: #f7fff7;
+}
+
+#contact-btn:hover {
+    box-shadow: 0 3px 10px #343434;
 }
 
     /*My Skillsets*/
