@@ -16,10 +16,11 @@ body {
     align-items: center;
 }
 
-#vkl:hover, .nav-item a:hover, #contact-btn:hover {
+#vkl:hover, .nav-item a:hover, #contact-btn:hover, .card:hover {
     color: #ffe66d;
     text-decoration: none;
 }
+
 
 .nav-link-color {
     color:#f7fff7;
