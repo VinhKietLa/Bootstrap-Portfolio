@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 
-#vkl:hover, .nav-item a:hover, #contact-btn:hover, .card:hover {
+#vkl:hover, .nav-item a:hover, #aboutme-btn:hover, .card:hover {
     color: #ffe66d;
     text-decoration: none;
 }
@@ -44,16 +44,6 @@ body {
     background-color: #ffe66d;
 }
 
-#aboutme-btn {
-    background-color: #343434;
-    border-color: #f7fff7;
-    color: #f7fff7;
-}
-
-#contact-btn:hover {
-    box-shadow: 0 3px 10px #343434;
-}
-
 
 /* About me section*/
 
@@ -66,6 +56,17 @@ body {
     text-align: center;
     border-bottom: 1px solid #343434;
     margin-bottom: 2rem;
+}
+
+#aboutme-btn {
+    background-color: #343434;
+    border-color: #f7fff7;
+    color: #f7fff7;
+    text-decoration: none;
+}
+
+#me-section > a {
+    text-decoration: none;
 }
 
 /* Myskillset section*/
@@ -147,6 +148,10 @@ body {
     text-align: center;
 }
 
+.card-footer > p {
+    margin-bottom: 0;
+}
+
 #footer-bg {
     background-color: #ffe66d;
 }
@@ -156,6 +161,7 @@ body {
     border-color: #343434;
     color: #f7fff7;
 }
+
 
 
 /*  CUSTOM CSS STYLING 992px -1199px (large devices)*/
