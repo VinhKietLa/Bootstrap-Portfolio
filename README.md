@@ -13,4 +13,6 @@ Hosted using Github pages for a preview this can be found here -> https://vinhki
 - CSS
 - Bootstrap 4.3.1
 
+#### Screenshot;
+
 ![screenshot of portfolio](./images/screenshot.png)
