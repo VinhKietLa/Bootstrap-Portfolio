@@ -44,9 +44,9 @@ body {
     background-color: #ffe66d;
 }
 
-#contact-btn {
+#aboutme-btn {
     background-color: #343434;
-    border-color: #343434;
+    border-color: #f7fff7;
     color: #f7fff7;
 }
 
@@ -149,6 +149,12 @@ body {
 
 #footer-bg {
     background-color: #ffe66d;
+}
+
+#contact-btn {
+    background-color: #343434;
+    border-color: #343434;
+    color: #f7fff7;
 }
 
 
